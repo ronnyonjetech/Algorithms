@@ -1,21 +1,35 @@
+#!/bin/python3
 
+import math
+import os
+import random
+import re
+import sys
+
+#
+# Complete the 'getWays' function below.
+#
+# The function is expected to return a LONG_INTEGER.
+# The function accepts following parameters:
+#  1. INTEGER n
+#  2. LONG_INTEGER_ARRAY c
+#
 
 def getWays(n, c):
     # Write your code here
-    l=[[0]*(n+1)]*len(c)
+    a=[[0]*(n+1)]*len(c)
+    
+    for i in range(len(c)):
+        a[i][0]=1
+        
     for i in range(len(c)):
         for j in range(n+1):
-            if i==0:
-                l[i][j]=1 if j%c[i]==0 else 0
+            if c[i]>j:
+                a[i][j]=a[i-1][j]
             else:
-                if c[i]>j:
-                    l[i][j]=l[i-1][j]
-                else:
-                    l[i][j]=l[i-1][j]+l[i][j-c[i]]
-    print(l)
-    return l[len(c)-1][n]
-    
-    
+                a[i][j]=a[i-1][j]+a[i][j-c[i]]
+    return a[-1][-1]
+            
 if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')
 
