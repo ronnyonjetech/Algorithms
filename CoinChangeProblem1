@@ -1,0 +1,36 @@
+
+
+def getWays(n, c):
+    # Write your code here
+    l=[[0]*(n+1)]*len(c)
+    for i in range(len(c)):
+        for j in range(n+1):
+            if i==0:
+                l[i][j]=1 if j%c[i]==0 else 0
+            else:
+                if c[i]>j:
+                    l[i][j]=l[i-1][j]
+                else:
+                    l[i][j]=l[i-1][j]+l[i][j-c[i]]
+    print(l)
+    return l[len(c)-1][n]
+    
+    
+if __name__ == '__main__':
+    fptr = open(os.environ['OUTPUT_PATH'], 'w')
+
+    first_multiple_input = input().rstrip().split()
+
+    n = int(first_multiple_input[0])
+
+    m = int(first_multiple_input[1])
+
+    c = list(map(int, input().rstrip().split()))
+
+    # Print the number of ways of making change for 'n' units using coins having the values given by 'c'
+
+    ways = getWays(n, c)
+
+    fptr.write(str(ways) + '\n')
+
+    fptr.close()
