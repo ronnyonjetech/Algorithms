@@ -1,4 +1,7 @@
+
+
 # Algorithms
+
 
 ## Introduction To Algorithms
 
@@ -14,20 +17,24 @@
 
 [link here](https://rontechs.com)
 
+
 ## Characteristics of Algorithms
 1. Item 1
 2. Item 2
 3. Item 3
+
 
 ## How To Analyze Algorithms
 1. Item 1
 2. Item 2
 3. Item 3
 
+
 ## Classes of Functions
 1. Item 1
 2. Item 2
 3. Item 3
+
 
 ## Asymptotic Notation
 1. Item 1
