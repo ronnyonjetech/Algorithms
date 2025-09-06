@@ -2,10 +2,12 @@
 # Data Structures
 
 Before diving into algorithms, it’s important to first study **data structures**.  
-👉 The reason is simple: **algorithms are built on top of data structures**. 
+The reason is simple: **algorithms are built on top of data structures**. 
 
 ### Physical Data Structures
-Structures that define **how data is stored in memory** (actual representation).  
+Structures that define **how data is stored in memory** (actual representation).
+Physical data structures are used **to build the logical data structures**.
+**Array and Linked List can create stack,queues,trees and graphs therefore you have to master them first**
 - [Array](#array) → Data stored in a contiguous memory block.  
 - [Linked List](./LinkedLists/) → Data stored in nodes connected with pointers.  
 
