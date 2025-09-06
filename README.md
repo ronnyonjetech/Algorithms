@@ -3,17 +3,20 @@
 
 ## Table of Contents
 
-- [Physical Data Structures](#physical-data-structures)  
-  👉 Concerned with **how data is stored in memory**  
-  - [Array](#array)  
-  - [Linked List](./LinkedLists/)
+### 📌 Physical Data Structures
+Structures that define **how data is stored in memory** (actual representation).  
+- [Array](#array) → Data stored in a contiguous memory block.  
+- [Linked List](./LinkedLists/) → Data stored in nodes connected with pointers.  
 
-- [Logical Data Structures](#logical-data-structures)  
-  👉 Concerned with **how data elements are logically related & accessed**  
-  - [Stack](#stack)  
-  - [Queue](#queue)  
-  - [Tree](#tree)  
-  - [Graph](#graph)
+---
+
+### 📌 Logical Data Structures
+Structures that define **how data elements are logically organized and accessed**, independent of memory.  
+- [Stack](#stack) → Follows Last-In-First-Out (LIFO).  
+- [Queue](#queue) → Follows First-In-First-Out (FIFO).  
+- [Tree](#tree) → Hierarchical structure (parent–child relationship).  
+- [Graph](#graph) → Network of nodes connected by edges.  
+
 
 
 
