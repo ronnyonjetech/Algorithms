@@ -1,7 +1,8 @@
 
 # Data Structures
 
-## Table of Contents
+Before diving into algorithms, it’s important to first study **data structures**.  
+👉 The reason is simple: **algorithms are built on top of data structures**. 
 
 ### Physical Data Structures
 Structures that define **how data is stored in memory** (actual representation).  
