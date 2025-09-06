@@ -2,13 +2,16 @@
 # Data Structures
 
 ## Table of Contents
-- [Linked List](#introduction-to-algorithms)
-- [Array](#priori-analysis-and-posterior-testing)
-- [Queue](#characteristics-of-algorithms)
-- [Stack](#how-to-analyze-algorithms)
-- [Tree](#classes-of-functions)
-- [Graph](#asymptotic-notation)
 
+- [Physical Data Structures](#physical-data-structures)
+  - [Array](#array)
+  - [Linked List](#linked-list)
+
+- [Logical Data Structures](#logical-data-structures)
+  - [Stack](#stack)
+  - [Queue](#queue)
+  - [Tree](#tree)
+  - [Graph](#graph)
 
 
 # Algorithms
