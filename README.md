@@ -5,7 +5,7 @@
 
 - [Physical Data Structures](#physical-data-structures)
   - [Array](#array)
-  - [Linked List](#linked-list)
+  - [Linked List](./LinkedLists/)
 
 - [Logical Data Structures](#logical-data-structures)
   - [Stack](#stack)
