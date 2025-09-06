@@ -3,15 +3,18 @@
 
 ## Table of Contents
 
-- [Physical Data Structures](#physical-data-structures)
-  - [Array](#array)
+- [Physical Data Structures](#physical-data-structures)  
+  👉 Concerned with **how data is stored in memory**  
+  - [Array](#array)  
   - [Linked List](./LinkedLists/)
 
-- [Logical Data Structures](#logical-data-structures)
-  - [Stack](#stack)
-  - [Queue](#queue)
-  - [Tree](#tree)
+- [Logical Data Structures](#logical-data-structures)  
+  👉 Concerned with **how data elements are logically related & accessed**  
+  - [Stack](#stack)  
+  - [Queue](#queue)  
+  - [Tree](#tree)  
   - [Graph](#graph)
+
 
 
 # Algorithms
