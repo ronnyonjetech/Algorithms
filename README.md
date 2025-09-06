@@ -5,7 +5,7 @@
 
 ### 👉Physical Data Structures
 Structures that define **how data is stored in memory** (actual representation).  
-- [Array](#array):package: → Data stored in a contiguous memory block.  
+- [Array](#array) → Data stored in a contiguous memory block.  
 - [Linked List](./LinkedLists/) → Data stored in nodes connected with pointers.  
 
 ---
