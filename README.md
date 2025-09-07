@@ -3,6 +3,7 @@
 
 Before diving into algorithms, it’s important to first study **data structures**.  
 The reason is simple: **algorithms are built on top of data structures**. 
+
 There are two types of data structures which are **physical and logical data structures**
 
 ### Physical Data Structures
