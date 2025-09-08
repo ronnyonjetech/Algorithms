@@ -23,7 +23,10 @@ Structures that define **how data elements are logically organized and accessed*
   
   Elements are arranged in Last In First Out format.
   Used in **browser history,memory management** etc  
-- [Queue](#queue) → Follows First-In-First-Out (FIFO).  
+- [Queue](#queue) → Follows First-In-First-Out (FIFO).
+
+  Elements are arranged in First In First Out format
+  Used in **order processing systems,BFS algorithm,Call Centers** etc
 - [Tree](#tree) → Hierarchical structure (parent–child relationship).  
 - [Graph](#graph) → Network of nodes connected by edges.  
 
