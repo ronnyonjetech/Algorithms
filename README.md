@@ -20,7 +20,9 @@ Array and Linked List can create stack,queues,trees and graphs therefore you hav
 ### Logical Data Structures
 Structures that define **how data elements are logically organized and accessed**, independent of memory.  
 - [Stack](#stack) → Follows Last-In-First-Out (LIFO).
-  Elements are arranged in Last In First Out format.Used in browser history,memory management etc  
+- 
+  Elements are arranged in Last In First Out format.
+  Used in **browser history,memory management** etc  
 - [Queue](#queue) → Follows First-In-First-Out (FIFO).  
 - [Tree](#tree) → Hierarchical structure (parent–child relationship).  
 - [Graph](#graph) → Network of nodes connected by edges.  
