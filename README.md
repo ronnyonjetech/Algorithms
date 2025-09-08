@@ -27,9 +27,14 @@ Structures that define **how data elements are logically organized and accessed*
 
   Elements are arranged in First In First Out format
   Used in **order processing systems,BFS algorithm,Call Centers** etc
-- [Tree](#tree) → Hierarchical structure (parent–child relationship).  
-- [Graph](#graph) → Network of nodes connected by edges.  
+- [Tree](#tree) → Hierarchical structure (parent–child relationship).
 
+  Elements are arranged in levels, starting from a **root node** and branching into **children nodes**.  
+  Used in **databases, file systems, XML/HTML parsing, and hierarchical data representation**.
+- [Graph](#graph) → Network of nodes connected by edges.
+
+  Elements (called **vertices**) are connected by **edges**, which can be directed or undirected.  
+  Used in **social networks, transportation systems, recommendation engines, computer networks, and shortest path algorithms**.
 
 
 
