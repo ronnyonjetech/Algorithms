@@ -48,10 +48,12 @@ class LinkedList:
         current.next=current.next.next
 
     def delete_middle_node(self):
+    #we used 2-pointer technique fast pointer moves two steps slow pointer moves one step
       fast=self.head
       slow=self.head
       prev=None
-
+    #when fast reaches the end the slow pointer will be pointing in the middle node
+    #since prev pointer kept previous state of slow pointer we can now delete the middle node easily
       while fast and fast.next:
         prev=slow
         slow=slow.next
