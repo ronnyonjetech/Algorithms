@@ -60,9 +60,7 @@ class LinkedList:
         fast=fast.next.next
       prev.next=slow.next
       return self.head
-
-
-        
+      
         
     def print_list(self):
         current=self.head
